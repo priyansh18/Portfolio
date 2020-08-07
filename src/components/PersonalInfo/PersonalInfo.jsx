@@ -51,6 +51,7 @@ class PersonalInfo extends Component {
                 ))}
               </div>
             </div>
+            
           </div>
         </div>
         <div className="social-links">
