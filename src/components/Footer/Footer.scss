@@ -1,0 +1,32 @@
+.footer-section {
+  font-family: monospace;
+  word-break: keep-all;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px 30px 10px;
+  font-size: x-large;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: url("../../assets/background.jpg") no-repeat center center fixed;
+
+
+  span {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 726px) {
+  .footer-section {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 485px) {
+  .footer-section {
+    padding: 10px;
+
+    font-size: x-small;
+  }
+}

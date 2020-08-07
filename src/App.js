@@ -4,6 +4,7 @@ import PersonalInfo from "./components/PersonalInfo/PersonalInfo";
 import ExtraInfo from "./components/ExtraInfo/ExtraInfo";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ExtraInfo />
       <Education />
       <Skills />
+      <Footer/>
     </div>
   );
 }

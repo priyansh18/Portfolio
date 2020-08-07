@@ -41,6 +41,14 @@ class Skills extends Component {
         name: "Figma",
         level: "Beginner",
       },
+      {
+        name: "MongoDB",
+        level: "Beginner",
+      },
+      {
+        name: "P5.js",
+        level: "Beginner",
+      },
     ],
   };
 
