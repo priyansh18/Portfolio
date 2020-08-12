@@ -5,12 +5,14 @@ import ExtraInfo from "./components/ExtraInfo/ExtraInfo";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
 import Footer from './components/Footer/Footer';
+import WorkStats from './components/WorkStats/WorkStats';
 
 function App() {
   return (
     <div className="App">
       <PersonalInfo />
       <ExtraInfo />
+      <WorkStats/>
       <Education />
       <Skills />
       <Footer/>
