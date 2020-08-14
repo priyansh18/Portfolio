@@ -4,20 +4,22 @@ import PersonalInfo from "./components/PersonalInfo/PersonalInfo";
 import ExtraInfo from "./components/ExtraInfo/ExtraInfo";
 import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
-import Footer from './components/Footer/Footer';
-import WorkStats from './components/WorkStats/WorkStats';
+import Footer from "./components/Footer/Footer";
+import WorkStats from "./components/WorkStats/WorkStats";
 import Experience from "./components/Experience/Experience";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <PersonalInfo />
       <ExtraInfo />
-      <WorkStats/>
+      <WorkStats />
       <Education />
       <Skills />
-      <Experience/>
-      <Footer/>
+      <Experience />
+      <Footer />
     </div>
   );
 }

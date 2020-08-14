@@ -1,0 +1,111 @@
+header {
+  border-bottom: 3px solid lightskyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 20px;
+  background: #222;
+
+  background-repeat: space;
+  background-size: left;
+  .name {
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 500;
+    color: mediumaquamarine;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 30px;
+
+    a {
+      font-size: 1.2em;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: aquamarine;
+      padding: 0 10px;
+      line-height: 2.5em;
+      border-radius: 25px;
+      margin-right: 4px;
+      &.active {
+        transition: all 0.5s;
+        color: rgb(255, 255, 255);
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0px;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    display: none;
+  }
+}
+
+@media (max-width: 896px) {
+  header {
+    .name {
+      font-size: 1.5em;
+    }
+
+    .navbar {
+      a {
+        padding: 0 5px;
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  header {
+    flex-direction: column;
+    .navbar {
+      margin-top: 10px;
+      a {
+        padding: 5px 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 592px) {
+  header {
+    flex-direction: row;
+    .navbar {
+      display: none;
+    }
+
+    .navbar-collapse {
+      display: block;
+      font-size: 1.5em;
+      border-radius: 25px;
+      width: 10%;
+      height: 10%;
+      line-height: 1.8em;
+      min-width: 40px;
+      min-height: 40px;
+      color: #222;
+      background-color: lightskyblue;
+      // rgba(24, 33, 83, 1);
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),
+        0 15px 12px rgba(0, 0, 0, 0.22);
+      &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+          0 10px 10px rgba(0, 0, 0, 0.22);
+      }
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
