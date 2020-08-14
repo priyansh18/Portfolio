@@ -1,6 +1,7 @@
 .footer-section {
   font-family: monospace;
   word-break: keep-all;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +12,6 @@
   letter-spacing: 2px;
   background: url("../../assets/background.jpg") no-repeat center center fixed;
 
-
   span {
     padding: 0 10px;
   }
@@ -20,6 +20,7 @@
 @media (max-width: 726px) {
   .footer-section {
     font-size: medium;
+    color: white;
   }
 }
 

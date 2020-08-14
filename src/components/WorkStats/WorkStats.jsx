@@ -22,22 +22,22 @@ const WorkStats = () => {
       </section>
       <div className="container">
         <figure>
-          <embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/85647fe0-5681-42b8-9022-7cc7ccedba54.svg"></embed>
+          <embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/30bd6c7c-ab53-47e3-8f88-425bca684314.svg"></embed>
         </figure>
 
         <figure>
-          <embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/27001716-efe3-401d-89e2-a1887c0df4d6.svg"></embed>
+          <embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/c6b6194f-318b-41ed-8459-225e9b29c12f.svg"></embed>
         </figure>
         <div className="contrib-svg">
           <h6 className="github-heading">Github Contrib</h6>
-          <div className="scroller">{console.log(typeof svg)}
+          <div className="scroller">
             {renderHTML(
               svg
-                .replaceAll("#ebedf0", "#222222")
-                .replaceAll("#9be9a8", "#4fffa7")
-                .replaceAll("#40c463", "#3DDC84")
-                .replaceAll("#30a14e", "#008D41")
-                .replaceAll("#216e39", "#00753b")
+                .replace(/#ebedf0/g, "#222222")
+                .replace(/#9be9a8/g, "#4fffa7")
+                .replace(/#40c463/g, "#3DDC84")
+                .replace(/#30a14e/g, "#008D41")
+                .replace(/#216e39/g, "#00753b")
             )}
           </div>
         </div>

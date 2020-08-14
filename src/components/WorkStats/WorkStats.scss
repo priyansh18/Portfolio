@@ -59,10 +59,18 @@
         color: darkgoldenrod;
       }
       svg {
-        background: #fff;
+        background: #141414;
         text {
-          fill: rgb(0, 139, 12);
+          fill: rgb(255, 248, 248);
           font-weight: 800;
+        }
+      }
+
+      .js-calendar-graph-svg {
+        border-radius: 5px;
+
+        .g {
+          border-radius: 5px;
         }
       }
     }
