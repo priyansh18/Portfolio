@@ -7,10 +7,23 @@ import pryfry from "../../assets/projects/pryfry.jpeg"
 import hallOfFame from "../../assets/projects/hall.jpeg"
 import breakingBad from "../../assets/projects/breakingbad.jpeg"
 import photoFrame from "../../assets/projects/photoframe.jpeg"
+import burgerBuilder from "../../assets/projects/burger.png"
 
 class Projects extends Component {
   state = {
     projects: [
+      {
+        photo: movieTvImage,
+        name: "MovieTv Info",
+        code: "https://github.com/priyansh18/MovieTv-Info",
+        website: "https://movietv-info.web.app/",
+        techused: [
+          "React.js",
+          "Firebase",
+          "Redux",
+        ],
+        started: "Dec 26, 2019",
+      },
       {
         photo: movieTvImage,
         name: "MovieTv Info",
@@ -68,6 +81,18 @@ class Projects extends Component {
         website: "https://breakingbad-cast.web.app/",
         techused: [
           "React.js",
+          "Firebase",
+        ],
+        started: "Dec 26, 2019",
+      },
+      {
+        photo: burgerBuilder,
+        name: "Burger Builder",
+        code: "https://github.com/priyansh18/burger_builder",
+        website: "https://burger-builder-5a5c5.web.app/",
+        techused: [
+          "React.js",
+          "Redux",
           "Firebase",
         ],
         started: "Dec 26, 2019",
