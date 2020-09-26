@@ -16,7 +16,7 @@
     border-radius: 50%;
     // background: #222;
 
-    color: #222;
+    color: mediumaquamarine;
     height: 60px;
     width: 60px;
     z-index: 20;
@@ -27,31 +27,13 @@
     animation: floattopbtn 3s infinite 0s linear;
   }
 
-  @keyframes floattopbtn {
-    0% {
-      transform: translateY(1px);
-      box-shadow: 2px 2px 2px rgba(135, 206, 250, 0.5),
-        -2px -2px 2px rgba(135, 206, 250, 0.5),
-        0px -2px 2px rgba(135, 206, 250, 0.5),
-        -2px 0px 2px rgba(135, 206, 250, 0.5),
-        0px 2px 2px rgba(135, 206, 250, 0.5),
-        2px 0px 2px rgba(135, 206, 250, 0.5);
-    }
-    100% {
-      transform: translateY(0px);
-      box-shadow: 0px 0px 0px #fff;
-    }
-  }
+ 
 }
 
-// Offsetting the html anchors to adjust for fixed header/navbar
-// Thank you :- https://www.wikitechy.com/technology/css-offsetting-html-anchor-adjust-fixed-header/
-// #about:before,
 #workstats:before,
 #projects:before,
 #experience:before,
 #education:before,
-// #blogs:before,
 #skills:before {
   display: block;
   content: " ";

@@ -8,6 +8,7 @@ import hallOfFame from "../../assets/projects/hall.jpeg"
 import breakingBad from "../../assets/projects/breakingbad.jpeg"
 import photoFrame from "../../assets/projects/photoframe.jpeg"
 import burgerBuilder from "../../assets/projects/burger.png"
+import Shophut from "../../assets/projects/shophut.png"
 
 class Projects extends Component {
   state = {
@@ -22,19 +23,21 @@ class Projects extends Component {
           "Firebase",
           "Redux",
         ],
-        started: "Dec 26, 2019",
+        started: "June 12, 2020",
       },
       {
-        photo: movieTvImage,
-        name: "MovieTv Info",
-        code: "https://github.com/priyansh18/MovieTv-Info",
-        website: "https://movietv-info.web.app/",
+        photo: Shophut,
+        name: "Shophut",
+        code: "https://github.com/priyansh18/Shophut",
+        website: "https://shophut.herokuapp.com/",
         techused: [
-          "React.js",
-          "Firebase",
-          "Redux",
+          "Django",
+          "Python",
+          "Heroku",
+          "HTML",
+          "CSS"
         ],
-        started: "Dec 26, 2019",
+        started: "May 15, 2020",
       },
       {
         photo: covid19ProjectImage,
@@ -48,7 +51,7 @@ class Projects extends Component {
           "Heroku",
           "Chart.js",
         ],
-        started: "Dec 26, 2019",
+        started: "August 31, 2020",
       },
       {
         photo: pryfry,
@@ -60,7 +63,7 @@ class Projects extends Component {
           "Python",
           "Heroku"
         ],
-        started: "Dec 26, 2019",
+        started: "June 23, 2020",
       },
       {
         photo: hallOfFame,
@@ -72,7 +75,7 @@ class Projects extends Component {
           "Python",
           "Heroku",
         ],
-        started: "Dec 26, 2019",
+        started: "July 2, 2020",
       },
       {
         photo: breakingBad,
@@ -83,7 +86,7 @@ class Projects extends Component {
           "React.js",
           "Firebase",
         ],
-        started: "Dec 26, 2019",
+        started: "July 10, 2020",
       },
       {
         photo: burgerBuilder,
@@ -95,7 +98,7 @@ class Projects extends Component {
           "Redux",
           "Firebase",
         ],
-        started: "Dec 26, 2019",
+        started: "July 19, 2020",
       },
       {
         photo: photoFrame,
@@ -103,7 +106,7 @@ class Projects extends Component {
         code: "https://github.com/priyansh18/PhotoFrame-React-Redux",
         website: "https://photoframe-priyansh.web.app/",
         techused: ["Javascript", "React", "Firebase"],
-        started: "Aug 10, 2019",
+        started: "Jun 8, 2020",
       },
     ],
   };

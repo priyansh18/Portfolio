@@ -22,6 +22,7 @@ function App() {
       <Projects/>
       <Experience />
       <Footer />
+      <a href="#about" className="bottom-right-float">&uarr;</a>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import {ReactComponent as Facebook} from '../../assets/socialMedia/facebook.svg'
 import {ReactComponent as Twitter} from '../../assets/socialMedia/twitter.svg'
 import {ReactComponent as Linkedin} from '../../assets/socialMedia/linkedin.svg'
 import {ReactComponent as Instagram} from '../../assets/socialMedia/instagram.svg'
+import {ReactComponent as Medium} from '../../assets/socialMedia/medium.svg'
 import "./PersonalInfo.scss";
 
 
@@ -14,6 +15,8 @@ class PersonalInfo extends Component {
     twitterLink: "https://twitter.com/18_priyansh",
     linkedinLink: "https://www.linkedin.com/in/priyanshsinghal",
     instagramLink:"https://www.instagram.com/18_priyansh/",
+    mediumLink: "https://medium.com/@singhalpriyansh58",
+
     about: [
       {
         name: "Priyansh Singhal",
@@ -51,7 +54,6 @@ class PersonalInfo extends Component {
                 ))}
               </div>
             </div>
-            
           </div>
         </div>
         <div className="social-links">
@@ -75,6 +77,9 @@ class PersonalInfo extends Component {
               </a>
               <a href={this.state.instagramLink} target="_blank" rel="noopener noreferrer">
                 <Instagram />
+              </a>
+              <a href={this.state.mediumLink} target="_blank" rel="noopener noreferrer">
+                <Medium/>
               </a>
             </div>
           </div>

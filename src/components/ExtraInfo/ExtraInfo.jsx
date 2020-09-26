@@ -10,7 +10,7 @@ const ExtraInfo = () => {
         </h3>
         <p className="break-words">I'm a Full Stack Developer,I'm a quick learner and can transform ideas into webpages. </p>
         <p className="break-words last">
-          I enjoy building websites . 
+         Currently <b>I'm a student from Dr. Akhilesh Das Gupta Institute of Technology & Management</b> persuing B.tech. I'm a creative problem solving enthusiast and love heart building Websites , Beside's engineering , I enjoy reading Books , watching Movies & playing Cricket.
         </p>
       </div>
     </div>
