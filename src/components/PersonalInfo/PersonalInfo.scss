@@ -176,8 +176,6 @@
       width: 50%;
       height: 55%;
       overflow: hidden;
-      background-repeat: space;
-      background-position-x: center;
 
       img {
         width: 100%;
@@ -227,8 +225,6 @@
           width: 100%;
           height: 45%;
           overflow: hidden;
-          background-repeat: space;
-          background-position-x: center;
 
           img {
             width: 100%;
@@ -266,6 +262,7 @@
       .container {
         width: 80%;
         padding: 0;
+        margin-top: 50px;
       }
       .github {
         background-color: #fff;
@@ -280,36 +277,33 @@
     .photo-and-info {
       height: 90vh;
       .container {
-        width: 85%;
+        width: 95%;
         padding-top: 20%;
         .photo {
           width: 85%;
           height: 45%;
           overflow: hidden;
-          background-repeat: space;
-          background-position-x: center;
-
          
         }
 
         .info {
-          width: 85%;
+          width: 77%;
           height: 45%;
           margin: 0 auto;
           padding: 10px 10px 0 30px;
           .info-details {
             height: 100%;
-            font-size: 10px;
+            font-size: 60px;
             .details {
               color: #fff;
               height: 23%;
               padding-bottom: 10px;
               .name {
-                font-size: 2.4em;
+                font-size: 3.0em;
                 line-height: 1.4em;
               }
               .value {
-                font-size: 1.2em;
+                font-size: 1.8em;
                 line-height: 1.2em;
                 margin-left: 2px;
               }
@@ -322,6 +316,12 @@
     .social-links {
       .container {
         width: 85%;
+        margin-top: 85px;
+        a svg {
+          background-color: #333;
+        }
+
+
       }
     }
   }

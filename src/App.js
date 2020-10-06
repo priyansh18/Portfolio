@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <PersonalInfo />
       <ExtraInfo />
       <WorkStats />
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Projects/>
       <Experience />
+      <label className="resume-info">To Know More --- <a href="Resume.pdf" target="_blank"><button className=" resume btn btn-secondary">Download Resume</button></a></label>
       <Footer />
       <a href="#about" className="bottom-right-float">&uarr;</a>
     </div>
