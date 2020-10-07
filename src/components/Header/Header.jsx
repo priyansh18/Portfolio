@@ -44,18 +44,11 @@ class Header extends React.Component {
             Work Stats
           </a>
           <a
-            href="#projects"
-            className={activeLink === "projects" ? "active" : ""}
-            onClick={() => this.handleActiveLink("projects")}
+            href="#education"
+            className={activeLink === "education" ? "active" : ""}
+            onClick={() => this.handleActiveLink("education")}
           >
-            Projects
-          </a>
-          <a
-            href="#experience"
-            className={activeLink === "experience" ? "active" : ""}
-            onClick={() => this.handleActiveLink("experience")}
-          >
-            Experience
+            Education
           </a>
           <a
             href="#skills"
@@ -63,13 +56,27 @@ class Header extends React.Component {
             onClick={() => this.handleActiveLink("skills")}
           >
             Skills
+          </a> 
+          <a
+            href="#projects"
+            className={activeLink === "projects" ? "active" : ""}
+            onClick={() => this.handleActiveLink("projects")}
+          >
+            Projects
           </a>
           <a
-            href="#education"
-            className={activeLink === "education" ? "active" : ""}
-            onClick={() => this.handleActiveLink("education")}
+            href="#blogs"
+            className={activeLink === "blogs" ? "active" : ""}
+            onClick={() => this.handleActiveLink("blogs")}
           >
-            Education
+            Blogs
+          </a>
+          <a
+            href="#experience"
+            className={activeLink === "experience" ? "active" : ""}
+            onClick={() => this.handleActiveLink("experience")}
+          >
+            Experience
           </a>
         </div>
         <div className="navbar-collapse" onClick={() => this.showNavbar(true)}>

@@ -1,0 +1,144 @@
+.blogs-section {
+    padding-bottom: 20px;
+    section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 30px 30px;
+      background-color: #222;
+      font-size: xx-large;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      h4 {
+        color: lightskyblue;
+      }
+    }
+  
+    .container {
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      padding: 20px;
+      padding-top: 100px;
+      border-top: 10px solid lightskyblue;
+      background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #222 30px);
+  
+      border-radius: 40px;
+  
+      .blog-card {
+        box-shadow: 3px 5px 4px #555555;
+        border-bottom: 8px solid lightskyblue;
+        // border-top: 8px solid lightskyblue;
+        width: 290px;
+        position: relative;
+        border-radius: 25px;
+        text-align: left;
+        overflow: hidden;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        transition: all 0.8s;
+        background: #333;
+        // background: transparent;
+        // background: url("../../assets/j.png") no-repeat center center fixed;
+        // background-color: #000000;
+        // background-image: url("https://www.transparenttextures.com/patterns/escheresque.png");
+        &:hover {
+          transform: translateY(-10px);
+        }
+        .pic {
+          width: 100%;
+          overflow: hidden;
+          height: 300px;
+          position: relative;
+          background-color: #aaa;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+          .name {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            background: #36b5cd;
+            font-weight: 600;
+            border-radius: 25px;
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 0px;
+            color: #222;
+  
+            font-weight: bold;
+          }
+        }
+  
+        .title,
+        .website {
+          padding: 10px;
+          a {
+            color: #ddd;
+            font-weight: bolder;
+            word-break: break-all;
+          }
+  
+          span {
+            text-transform: capitalize;
+            color: lightskyblue;
+            font-weight: 600;
+          }
+        
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 1500px) {
+    .blogs-section {
+      .container {
+        width: 90%;
+      }
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .blogs-section {
+      .container {
+        width: 90%;
+      }
+    }
+  }
+  
+  @media (max-width: 896px) {
+    .blogs-section {
+      .container {
+        width: 90%;
+        .blog-card {
+          width: 267px;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 726px) {
+    .blogs-section {
+      .container {
+        .blog-card {
+          width: 230px;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 622px) {
+    .blogs-section {
+      .container {
+        .blog-card {
+          width: 330px;
+        }
+      }
+    }
+  }

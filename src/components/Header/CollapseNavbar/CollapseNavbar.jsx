@@ -11,10 +11,11 @@ const CollapsedNavbar = ({ showNavbar, height }) => {
       <div className="overlay-content" onClick={() => showNavbar(false)}>
         <a href="#about">About Me</a>
         <a href="#workstats">Work Stats</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#experience">Experience</a>
       </div>
     </div>
   );
