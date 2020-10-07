@@ -33,7 +33,7 @@ const WorkStats = () => {
           <div className="scroller">
             {renderHTML(
               svg
-                .replace(/#ebedf0/g, "#222222")
+                .replace(/#ebedf0/g, "#111222")
                 .replace(/#9be9a8/g, "#4fffa7")
                 .replace(/#40c463/g, "#3DDC84")
                 .replace(/#30a14e/g, "#008D41")

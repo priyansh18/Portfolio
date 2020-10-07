@@ -18,7 +18,7 @@
       align-items: flex-end;
 
       .photo {
-        width: 100%;
+        width: 50%;
         height: 70%;
         background: url("../../assets/priyansh.jpg");
         background-repeat: round;
@@ -44,13 +44,12 @@
         height: 70%;
         box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.3);
         background-color: #333;
-        // background: #222;
+        // background: #111;
         // background: url("../../assets/info.jpg") no-repeat center fixed;
 
         // padding: 70px 20px 0 40px;
         display: flex;
         align-items: center;
-        padding-left: 50px;
 
         box-shadow: 0 0px 38px rgba(0, 0, 0, 0.3), 0 0px 12px rgba(0, 0, 0, 0.22);
         &:hover {
@@ -76,7 +75,7 @@
             .name {
               font-size: large;
               line-height: 1.4em;
-              color: mediumaquamarine;
+              color:mediumaquamarine;
               font-weight: bold;
             }
             .value {
@@ -100,7 +99,7 @@
     z-index: 40;
     .container {
       transition: 0.3s;
-      color: #fff;
+      color: #111;
 
       width: 40%;
       margin: 0 auto;
@@ -132,7 +131,7 @@
   .personal-info .photo-and-info .container {
     width: 50%;
     .info {
-      padding-left: 5px;
+      padding-left: 20px;
       .info-details .details {
         .value {
           font-size: 1.6em;
@@ -281,7 +280,7 @@
           .info-details {
             height: 100%;
             .details {
-              color: #fff;
+              color: #111;
               height: 23%;
               padding-bottom: 5px;
               .name {
@@ -313,6 +312,20 @@
   }
 }
 
+@media (max-height: 640px) {
+  .personal-info {
+    .photo-and-info {
+      .container {
+        .info {
+          .info-details {
+            font-size: x-small;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (max-width: 582px) {
   .personal-info {
     .photo-and-info {
@@ -334,19 +347,24 @@
           padding: 10px 10px 0 30px;
           .info-details {
             height: 100%;
-            font-size: 40px;
+            width: 100%;
+            font-size: 30px;
             .details {
-              color: #fff;  
+              color: #111;  
               height: 23%;
               padding-bottom: 10px;
+              overflow: none;
               .name {
-                font-size: 2.0em;
+                font-size: 0.7em;
                 line-height: 1.2em;
               }
               .value {
-                font-size: 1.8em;
+                font-size: 0.65em;
                 line-height: 1.2em;
                 margin-left: 2px;
+                &.email{
+                  font-size: 0.6em;
+                }
               }
             }
           }
@@ -357,12 +375,10 @@
     .social-links {
       .container {
         width: 85%;
-        margin-top: 110px;
+        margin-top: 70px;
         a svg {
           background-color: #333;
         }
-
-
       }
     }
   }
@@ -372,6 +388,7 @@
   .social-links {
     .container {
       width: 85%;
+      margin-top: 10px;
       a svg {
         background-color: #333;
       }
@@ -381,16 +398,3 @@
   }
 }
 
-@media (max-height: 640px) {
-  .personal-info {
-    .photo-and-info {
-      .container {
-        .info {
-          .info-details {
-            font-size: x-small;
-          }
-        }
-      }
-    }
-  }
-}

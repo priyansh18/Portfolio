@@ -67,16 +67,13 @@ class PersonalInfo extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Facebook />
+    <Facebook />
               </a>
               <a href={this.state.twitterLink} target="_blank" rel="noopener noreferrer">
                 <Twitter />
               </a>
               <a href={this.state.linkedinLink} target="_blank" rel="noopener noreferrer">
                 <Linkedin />
-              </a>
-              <a href={this.state.instagramLink} target="_blank" rel="noopener noreferrer">
-                <Instagram />
               </a>
               <a href={this.state.mediumLink} target="_blank" rel="noopener noreferrer">
                 <Medium/>

@@ -1,25 +1,24 @@
 .skills-section {
-  background: #222;
+  background: #111;
 
   section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #222;
+    background-color: #111;
     width: 100%;
     font-size: xx-large;
     text-transform: uppercase;
     letter-spacing: 2px;
     h4 {
-      color: mediumaquamarine;
+      color:mediumaquamarine;
     }
   }
 
   .container {
     border-top: 10px solid lightskyblue;
     border-radius: 40px;
-
     width: 70%;
     margin: 0 auto;
     display: flex;
@@ -27,7 +26,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 20px;
-    background: linear-gradient(180deg, rgba(102, 205, 170, 0.1), #222 30px);
+    background: linear-gradient(180deg, rgba(102, 205, 170, 0.1), #111 30px);
 
     .skill {
       padding: 20px 1.5%;
@@ -48,7 +47,7 @@
         font-weight: 500;
       }
       .level {
-        color: mediumaquamarine;
+        color:mediumaquamarine;
       }
     }
   }
@@ -71,8 +70,20 @@
   .skills-section {
     .container {
       width: 90%;
+      flex-wrap: wrap;
       .skill {
-        width: 45%;
+        width: 25%;
+      }
+    }
+  }
+}
+@media (max-width: 496px) {
+  .skills-section {
+    .container {
+      width: 90%;
+      flex-wrap: wrap;
+      .skill {
+        width: 35%;
       }
     }
   }

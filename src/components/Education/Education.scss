@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #222;
+    background-color: #111;
     font-size: xx-large;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -17,8 +17,8 @@
   }
 
   .border {
-    border-top: 10px solid mediumaquamarine;
-    background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #222 30px);
+    border-top: 10px solidmediumaquamarine;
+    background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #111 30px);
     border-radius: 40px;
     width: 80%;
     margin: auto;
@@ -39,7 +39,7 @@
           content: "";
           width: 4px;
           height: 105px;
-          background-color: mediumaquamarine;
+          background-color:mediumaquamarine;
           position: absolute;
           top: 60px;
           right: 0;
@@ -63,7 +63,7 @@
             font-weight: 600;
             display: block;
             font-size: 1.5em;
-            color: mediumaquamarine;
+            color:mediumaquamarine;
           }
         }
 
@@ -88,7 +88,7 @@
         .place {
           font-weight: 600;
           font-size: 1.5em;
-          color: mediumaquamarine;
+          color:mediumaquamarine;
         }
 
         .task-list {
@@ -137,7 +137,11 @@
 
 @media (max-width: 726px) {
   .education-section {
+    .border{
+      width:70%;
+    }
     .container {
+      font-size: 0.8em;
       .left {
         padding-left: 0px;
       }
