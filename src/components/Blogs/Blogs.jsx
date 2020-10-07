@@ -10,6 +10,7 @@ class Blogs extends Component {
           {
             photo: DjangoImage,
             published : "Django Framework",
+            publication: "https://medium.com/django-framework-real-world-projects",
             title: "Deploy Django Project on Heroku",
             website: "https://medium.com/django-framework-real-world-projects/deploy-django-project-on-heroku-13b191e311b6",
 
@@ -17,12 +18,14 @@ class Blogs extends Component {
           {
             photo: APIImage,
             published : "Javarevisited",
+            publication: "https://medium.com/javarevisited",
             title: "API & Its types",
             website: "https://medium.com/javarevisited/api-its-types-2f810409626",
           },
           {
             photo: ModernWeb,
             published : "Javarevisited",
+            publication: "https://medium.com/javarevisited",
             title: "Introduction to Modern Web Development",
             website: "https://medium.com/javarevisited/intro-to-modern-web-development-d714563c87e",
           },
@@ -40,7 +43,15 @@ class Blogs extends Component {
                 <div className="blog-card" key={100 + i}>
                   <div className="pic">
                     <img src={blog.photo} alt="blogpic" />
-                    <div className="name">{blog.published}</div>
+                    <div className="name">
+                        <a
+                        href={blog.publication}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                        {blog.published}
+                        </a>
+                    </div>
                   </div>
                   <div className="title">
                         <a
