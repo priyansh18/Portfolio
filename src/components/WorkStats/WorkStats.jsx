@@ -21,19 +21,15 @@ const WorkStats = () => {
         <h4>WorkStats</h4>
       </section>
       <div className="container">
-        <figure>
-          <embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/30bd6c7c-ab53-47e3-8f88-425bca684314.svg"></embed>
-        </figure>
+      <figure><embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/e1439cd5-190f-44fb-9ebc-14267bea628b.svg"></embed></figure>
 
-        <figure>
-          <embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/c6b6194f-318b-41ed-8459-225e9b29c12f.svg"></embed>
-        </figure>
+      <figure><embed src="https://wakatime.com/share/@5b9312f1-d5d1-4f0f-b2fd-4cb7c5a6cec6/c571c24f-fe72-4f0a-8c62-ebea3b9dea8c.svg"></embed></figure>
         <div className="contrib-svg">
           <h6 className="github-heading">Github Contrib</h6>
           <div className="scroller">
             {renderHTML(
               svg
-                .replace(/#ebedf0/g, "#111222")
+                .replace(/#ebedf0/g, "#1a1c20222")
                 .replace(/#9be9a8/g, "#4fffa7")
                 .replace(/#40c463/g, "#3DDC84")
                 .replace(/#30a14e/g, "#008D41")

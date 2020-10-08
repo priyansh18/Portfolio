@@ -24,6 +24,9 @@ function App() {
       <Blogs/>
       <Experience />
       <label className="resume-info">To Know More --- <a href="Resume.pdf" target="_blank"><button className=" resume btn btn-secondary">Download Resume</button></a></label>
+      <br/>
+      <br/>
+      <br/>
       <Footer />
       <a href="#about" className="bottom-right-float">&uarr;</a>
     </div>

@@ -1,10 +1,12 @@
 .App {
   text-align: center;
-  // background: #111 url("./assets/chemistry.webp") repeat 0 0 fixed;
-  background: #111;
+  // background: #252422 url("./assets/chemistry.webp") repeat 0 0 fixed;
+  background: #252422;
   width: 100%;
   overflow-x: hidden;
   height: auto;
+  background-color: #1a1c20;
+
 
   .resume{
     font-size: 20px;
@@ -16,16 +18,16 @@
   .bottom-right-float {
     position: fixed;
     bottom: 30px;
-    font-size: 3rem;
+    font-size: 1.7rem;
     font-weight: bolder;
     right: 30px;
-    border: 4px solidmediumaquamarine;
+    border: 4px solid#28bdd7;
     border-radius: 50%;
-    // background: #111;
+    // background: #252422;
 
-    color:mediumaquamarine;
-    height: 60px;
-    width: 60px;
+    color:#28bdd7;
+    height: 40px;
+    width: 40px;
     z-index: 20;
     box-shadow: 3px 3px 3px #666;
     cursor: pointer;
@@ -34,10 +36,7 @@
     animation: floattopbtn 3s infinite 0s linear;
     
     @media  (max-width: 380px){
-      height: 40px;
-      width: 40px;
       right: 10px;
-    font-size: 1.7rem;
 
     }
   }

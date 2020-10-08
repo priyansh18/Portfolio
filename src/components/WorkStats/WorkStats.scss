@@ -1,25 +1,24 @@
 .workstats-section {
   padding-bottom: 80px;
+  background-color: #1a1c20;
 
   section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #111;
     width: 100%;
     font-size: xx-large;
     text-transform: uppercase;
     letter-spacing: 2px;
     h4 {
-      color:mediumaquamarine;
+      color:#f0a500;
     }
   }
 
   .container {
-    border-top: 10px solidmediumaquamarine;
-    background: linear-gradient(180deg, rgba(102, 205, 170, 0.1), #111 30px);
-
+    border-top: 10px solid #f0a500;
+    // background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #252422 30px);
     border-radius: 40px;
     width: 70%;
     margin: 0 auto;
@@ -37,7 +36,7 @@
         transform: translateY(-10px);
       }
       rect {
-        background: #111;
+        background: #1a1c20;
       }
     }
 

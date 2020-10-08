@@ -1,5 +1,6 @@
 .education-section {
   padding-bottom: 70px;
+  background-color: #1a1c20;
 
   section {
     display: flex;
@@ -7,7 +8,6 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #111;
     font-size: xx-large;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -17,8 +17,8 @@
   }
 
   .border {
-    border-top: 10px solidmediumaquamarine;
-    background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #111 30px);
+    border-top: 10px solid #f0a500;
+    // background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #252422 30px);
     border-radius: 40px;
     width: 80%;
     margin: auto;
@@ -39,7 +39,7 @@
           content: "";
           width: 4px;
           height: 105px;
-          background-color:mediumaquamarine;
+          background-color:#f0a500;
           position: absolute;
           top: 60px;
           right: 0;
@@ -63,7 +63,7 @@
             font-weight: 600;
             display: block;
             font-size: 1.5em;
-            color:mediumaquamarine;
+            color:#f0a500;
           }
         }
 
@@ -88,7 +88,7 @@
         .place {
           font-weight: 600;
           font-size: 1.5em;
-          color:mediumaquamarine;
+          color:#f0a500;
         }
 
         .task-list {

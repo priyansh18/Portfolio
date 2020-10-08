@@ -1,5 +1,6 @@
 .extra-info {
   width: 100vw;
+  background-color: #1a1c20;
   .container {
     width: 60%;
     margin: 0 auto;
@@ -9,13 +10,13 @@
     h3 {
       font-weight: normal;
       height: 10%;
-      font-size: xx-large;
+      font-size: x-large;
       margin-bottom: 30px;
       font-family: monospace;
-      color:mediumaquamarine;
+      color:#28bdd7;
 
       span {
-        font-size: x-larger;
+        font-size: x-large;
         color: orange;
       }
     }
@@ -24,10 +25,10 @@
       word-wrap: break-word;
       height: 45%;
       padding: 0 40px;
-      font-size: x-large;
+      font-size: large;
       font-weight: 100;
       font-family: monospace;
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
 
     p.last {

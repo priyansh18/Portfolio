@@ -1,5 +1,7 @@
 .projects-section {
     padding-bottom: 20px;
+    background-color: #1a1c20;
+    
     section {
       display: flex;
       flex-direction: row;
@@ -7,12 +9,11 @@
       align-items: center;
       width: 100%;
       padding: 30px 30px;
-      background-color: #111;
       font-size: xx-large;
       text-transform: uppercase;
       letter-spacing: 2px;
       h4 {
-        color: lightskyblue;
+        color: #f0a500;
       }
     }
   
@@ -25,15 +26,15 @@
       margin: 0 auto;
       padding: 20px;
       padding-top: 100px;
-      border-top: 10px solid lightskyblue;
-      background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #111 30px);
+      border-top: 10px solid #f0a500;
+      // background: linear-gradient(180deg, rgba(135, 206, 250, 0.1), #252422 30px);
   
       border-radius: 40px;
   
       .project-card {
         box-shadow: 3px 5px 4px #555555;
-        border-bottom: 8px solid lightskyblue;
-        // border-top: 8px solid lightskyblue;
+        border-bottom: 8px solid #f0a500;
+        // border-top: 8px solid #f0a500;
         width: 290px;
         position: relative;
         border-radius: 25px;
@@ -42,7 +43,7 @@
         margin-right: 40px;
         margin-bottom: 40px;
         transition: all 0.8s;
-        background: #333;
+        background: #0D1821;
         // background: transparent;
         // background: url("../../assets/j.png") no-repeat center center fixed;
         // background-color: #000000;
@@ -72,12 +73,12 @@
             bottom: 0;
             left: 0;
             padding: 10px;
-            background: #36b5cd;
+            background: #c62a88;
             font-weight: 600;
             border-radius: 25px;
             border-bottom-left-radius: 0px;
             border-top-right-radius: 0px;
-            color: #111;
+            color: #252422;
   
             font-weight: bold;
           }
@@ -94,7 +95,7 @@
   
           span {
             text-transform: capitalize;
-            color: lightskyblue;
+            color: #f0a500;
             font-weight: 600;
           }
         }
@@ -125,7 +126,7 @@
             display: flex;
             flex-direction: column;
             font-size: larger;
-            color: lightskyblue;
+            color: #f0a500;
             font-weight: bolder;
   
             span {
@@ -135,19 +136,19 @@
           .visit {
             padding: 10px 20px;
             border-radius: 25px;
-            border: 2px solidmediumaquamarine;
+            border: 2px solid#28bdd7;
             cursor: pointer;
             transition: all 0.8s;
             &:hover {
               background: lightblue;
               transform: rotate(5deg);
               a {
-                color: #111;
+                color: #252422;
               }
             }
             a {
               text-decoration: none;
-              color:mediumaquamarine;
+              color:#28bdd7;
             }
           }
         }

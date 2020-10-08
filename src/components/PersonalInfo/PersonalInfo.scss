@@ -4,7 +4,7 @@
     transform: translateY(-10px);
   }
   .photo-and-info {
-    height: 75vh;
+    height: 85vh;
     width: 100vw;
     background: url("../../assets/background.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -43,8 +43,8 @@
         width: 50%;
         height: 70%;
         box-shadow: 0 4px 8px 10px rgba(0, 0, 0, 0.3);
-        background-color: #333;
-        // background: #111;
+        background-color: #1a1c20;
+        // background: #252422;
         // background: url("../../assets/info.jpg") no-repeat center fixed;
 
         // padding: 70px 20px 0 40px;
@@ -75,11 +75,11 @@
             .name {
               font-size: large;
               line-height: 1.4em;
-              color:mediumaquamarine;
+              color:#28bdd7;
               font-weight: bold;
             }
             .value {
-              font-size: 20px;
+              font-size: large;
               margin-left: 2px;
               color: #ddd;
               font-family: "Times New Roman", Times, serif;
@@ -96,11 +96,12 @@
   .social-links {
     height: 10vh;
     width: 100vw;
+    background: #1a1c20;
     z-index: 40;
     .container {
       transition: 0.3s;
-      color: #111;
-
+      color: #252422;
+      background: #0D1821;
       width: 40%;
       margin: 0 auto;
       height: 8vh;
@@ -280,7 +281,7 @@
           .info-details {
             height: 100%;
             .details {
-              color: #111;
+              color: #252422;
               height: 23%;
               padding-bottom: 5px;
               .name {
@@ -350,7 +351,7 @@
             width: 100%;
             font-size: 30px;
             .details {
-              color: #111;  
+              color: #252422;  
               height: 23%;
               padding-bottom: 10px;
               overflow: none;

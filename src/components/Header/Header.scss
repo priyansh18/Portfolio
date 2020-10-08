@@ -10,15 +10,15 @@ header {
   left: 0;
   z-index: 100;
   padding: 20px;
-  background: #111;
+  background: #0D1821;
 
   background-repeat: space;
   background-size: left;
   .name {
-    color: #111;
+    color: #252422;
     font-size: 1.6em;
     font-weight: 500;
-    color:mediumaquamarine;
+    color:#28bdd7;
   }
 
   .navbar {
@@ -31,7 +31,7 @@ header {
       font-size: 1em;
       text-decoration: none;
       text-transform: uppercase;
-      color: aquamarine;
+      color: lightskyblue;
       padding: 0 10px;
       line-height: 2.5em;
       border-radius: 25px;
@@ -94,7 +94,7 @@ header {
       line-height: 1.8em;
       min-width: 40px;
       min-height: 40px;
-      color: #111;
+      color: #252422;
       background-color: lightskyblue;
       // rgba(24, 33, 83, 1);
       box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3),

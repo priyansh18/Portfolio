@@ -1,23 +1,23 @@
 .skills-section {
-  background: #111;
+  background-color: #1a1c20;
+  
 
   section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #111;
     width: 100%;
     font-size: xx-large;
     text-transform: uppercase;
     letter-spacing: 2px;
     h4 {
-      color:mediumaquamarine;
+      color:#f0a500;
     }
   }
 
   .container {
-    border-top: 10px solid lightskyblue;
+    border-top: 10px solid #f0a500;
     border-radius: 40px;
     width: 70%;
     margin: 0 auto;
@@ -26,14 +26,14 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 40px 20px;
-    background: linear-gradient(180deg, rgba(102, 205, 170, 0.1), #111 30px);
+    // background: linear-gradient(180deg, rgba(102, 205, 170, 0.1), #252422 30px);
 
     .skill {
       padding: 20px 1.5%;
       margin: 2%;
       width: 21%;
       box-shadow: 5px 6px 10px #555;
-      border-left: 6px solid lightskyblue;
+      border-left: 6px solid #f0a500;
       border-radius: 10px;
       transition: all 0.5s;
       background: url("../../assets/background.jpg") no-repeat center center fixed;
@@ -47,7 +47,7 @@
         font-weight: 500;
       }
       .level {
-        color:mediumaquamarine;
+        color:#28bdd7;
       }
     }
   }
