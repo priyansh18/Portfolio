@@ -11,7 +11,10 @@ Peek :
 
 ## 🙇 Special Thanks
 
-- [Shaurya Singhal](https://github.com/jugshaurya) for amazing [productive-weekday](https://github.com/jugshaurya/productive-weekday)
+- [Shaurya Singhal](https://github.com/jugshaurya) for amazing [productive-weekday](https://github.com/jugshaurya/productive-weekday) & Contribute for Github SVG
+
+![](./github.png)
+
 
 
 #### Deployment
