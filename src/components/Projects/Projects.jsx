@@ -43,7 +43,7 @@ class Projects extends Component {
         photo: covid19ProjectImage,
         name: "Microsoft Covid19 Visualizer",
         code: "https://github.com/priyansh18/Covid-19-Dashboard",
-        website: "https://covid-infection-dashboard.herokuapp.com/",
+        website: "https://interactivecovid19dashboard.herokuapp.com/",
         techused: [
           "Django",
           "Machine learning",
