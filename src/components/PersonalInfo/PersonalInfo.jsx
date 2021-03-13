@@ -3,7 +3,6 @@ import {ReactComponent as Github} from '../../assets/socialMedia/github.svg'
 import {ReactComponent as Facebook} from '../../assets/socialMedia/facebook.svg'
 import {ReactComponent as Twitter} from '../../assets/socialMedia/twitter.svg'
 import {ReactComponent as Linkedin} from '../../assets/socialMedia/linkedin.svg'
-import {ReactComponent as Instagram} from '../../assets/socialMedia/instagram.svg'
 import {ReactComponent as Medium} from '../../assets/socialMedia/medium.svg'
 import "./PersonalInfo.scss";
 
