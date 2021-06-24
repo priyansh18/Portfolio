@@ -12,7 +12,7 @@ const Experience = () => {
         <div class="experiences">
           <div className="left">
             <div className="date">
-              <span>May-Jun 2020</span>
+              <span>May 2021-Present</span>
             </div>
             <div className="occupation">
               <span> Web Developer </span>
@@ -20,15 +20,15 @@ const Experience = () => {
           </div>
           <div className="right">
             <div className="place">
-              <span>@</span>JDMR ISCHOOL
+              <span>@</span>Startupstorymedia
             </div>
             <div className="task-list">
               <div className="heading">
-                Key responsibilities during the internship were -
+                Key responsibilities -
               </div>
               <ul className="list">
-                <li>Changes in WebPage</li>
-                <li>Created Teaching board using P5.js </li>
+                <li>Identify and fix bugs and errors in the website.</li>
+                <li>Collaborating with the team to create a user-friendly website.</li>
               </ul>
             </div>
           </div>
@@ -36,10 +36,10 @@ const Experience = () => {
         <div class="experiences">
           <div className="left">
             <div className="date">
-              <span>April-May 2021</span>
+              <span>Feb-May 2021</span>
             </div>
             <div className="occupation">
-              <span> Web Developer </span>
+              <span> Web Developer Intern </span>
             </div>
           </div>
           <div className="right">
@@ -51,8 +51,32 @@ const Experience = () => {
                 Key responsibilities during the internship were -
               </div>
               <ul className="list">
-                <li>Designing of whole Webpage. </li>
-                <li>Handle website for all screens.</li>
+                <li>Deploy and create a website from scratch using Django Framework.</li>
+                <li>Developed a User-interactive interface for a better experience.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="experiences">
+          <div className="left">
+            <div className="date">
+              <span>May-Jun 2020</span>
+            </div>
+            <div className="occupation">
+              <span> Web Developer Intern </span>
+            </div>
+          </div>
+          <div className="right">
+            <div className="place">
+              <span>@</span>JDMR ISCHOOL
+            </div>
+            <div className="task-list">
+              <div className="heading">
+                Key responsibilities during the internship were -
+              </div>
+              <ul className="list">
+                <li>Deploying and maintaining website using Django backend.</li>
+                <li>Developed a Canvas-Whiteboard for online teaching and assessments.</li>
               </ul>
             </div>
           </div>
