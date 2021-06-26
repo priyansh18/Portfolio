@@ -21,7 +21,7 @@ class Skills extends Component {
         level: "Intermediate",
       },
       {
-        name: "React.js",
+        name: "ReactJs",
         level: "Intermediate",
       },
       {
@@ -38,7 +38,7 @@ class Skills extends Component {
       },
 
       {
-        name: "Figma",
+        name: "Wordpress",
         level: "Beginner",
       },
       {
@@ -47,6 +47,18 @@ class Skills extends Component {
       },
       {
         name: "P5.js",
+        level: "Beginner",
+      },
+      {
+        name: "PHP",
+        level: "Beginner",
+      },
+      {
+        name: "Git",
+        level: "Beginner",
+      },
+      {
+        name: "Flask",
         level: "Beginner",
       },
     ],
@@ -62,7 +74,7 @@ class Skills extends Component {
           {this.state.skills.map((skill, i) => (
             <div className="skill" key={i}>
               <div className="name">{skill.name}</div>
-              <div className="level">{skill.level}</div>
+              {/* <div className="level">{skill.level}</div> */}
             </div>
           ))}
         </div>
