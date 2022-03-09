@@ -27,10 +27,10 @@ const Education = () => {
         <div className="container">
           <div className="left">
             <div className="date">
-              <span>2017-2021(Expected)</span>
+              <span>2017-2021</span>
             </div>
             <div className="occupation">
-              <span> Bachelors in Technology(Computer Science ) </span>
+              <span> B.Tech (CSE) </span>
             </div>
           </div>
           <div className="right">
