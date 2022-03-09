@@ -3,7 +3,7 @@
 
 <img src="https://img.shields.io/badge/made%20with-react-cyan.svg" alt="made with react"> 
 
-Check it out : https://www.priyanshsinghal.com/
+Check it out : https://www.priyanshsinghal.in/
 
 Peek :
 
