@@ -12,7 +12,7 @@ const Experience = () => {
         <div class="experiences">
           <div className="left">
             <div className="date">
-              <span>May 2021-Present</span>
+              <span>May 2021-Sept 2021</span>
             </div>
             <div className="occupation">
               <span> Web Developer </span>

@@ -19,7 +19,7 @@ class PersonalInfo extends Component {
     about: [
       {
         name: "Priyansh Singhal",
-        value: "Web Developer",
+        value: "Software Developer",
       },
       {
         name: "Email:",

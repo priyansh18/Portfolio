@@ -33,13 +33,8 @@ class Skills extends Component {
         level: "Intermediate",
       },
       {
-        name: "React-Native",
-        level: "Beginner",
-      },
-
-      {
         name: "Wordpress",
-        level: "Beginner",
+        level: "Intermediate",
       },
       {
         name: "MongoDB",
@@ -54,8 +49,8 @@ class Skills extends Component {
         level: "Beginner",
       },
       {
-        name: "Git",
-        level: "Beginner",
+        name: "Git & Github",
+        level: "Intermediate",
       },
       {
         name: "Flask",
