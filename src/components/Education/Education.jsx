@@ -39,7 +39,7 @@ const Education = () => {
               Delhi
             </div>
             <div className="task-list">
-              <div className="heading list">CGPA - 8.7(Till 6th sem)</div>
+              <div className="heading list">CGPA - 8.78</div>
             </div>
           </div>
         </div>
