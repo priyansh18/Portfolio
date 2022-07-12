@@ -9,7 +9,7 @@ class Skills extends Component {
         level: "Intermediate",
       },
       {
-        name: "C++",
+        name: "C/C++",
         level: "Intermediate",
       },
       {
@@ -35,10 +35,6 @@ class Skills extends Component {
       {
         name: "Wordpress",
         level: "Intermediate",
-      },
-      {
-        name: "MongoDB",
-        level: "Beginner",
       },
       {
         name: "P5.js",

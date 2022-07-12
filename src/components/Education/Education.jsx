@@ -14,14 +14,14 @@ const Education = () => {
               <span>2021-Present</span>
             </div>
             <div className="occupation">
-              <span> M.Tech(CSE)</span>
+              <span> M.Tech (CSE) </span>
             </div>
           </div>
           <div className="right">
             <div className="place">Netaji Subhas University of Technology(NSIT)</div>
-            {/* <div className="task-list">
-              <div className="heading list">Percentage - 84%</div>
-            </div> */}
+            <div className="task-list">
+              <div className="heading list">CGPA - 7.8/10</div>
+            </div>
           </div>
         </div>
         <div className="container">
@@ -39,7 +39,7 @@ const Education = () => {
               Delhi
             </div>
             <div className="task-list">
-              <div className="heading list">CGPA - 8.78</div>
+              <div className="heading list">CGPA - 8.7/10</div>
             </div>
           </div>
         </div>
